@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #0a0b27;
+}
+
+.logo{
+    margin-left: 27px;
+    margin-top: 13px;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    font-size: 100;
+    margin-right: 50px;
+}
+.links ul li{
+    list-style: none;
+    letter-spacing: 1px;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+li a:hover{
+    color: rgba(247, 32, 32, 0.893);
+}
+
+.first-part img{
+    margin-bottom: -4px;
+}
+.second-part{
+    display: flex;
+    height: 50rem;
+}
+
+.left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 50%;
+    color: #fff;
+}
+
+.img img{
+    width: 190px;
+}
+
+.text{
+    width: 340px;
+    position: absolute;
+    font-size: 30px;
+}
+.text span{
+    display: flex;
+    justify-content: center;
+}
+
+.right-section{
+    width: 50%;
+}
+.para{
+    margin: 110px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: -60px;
+}
+
+.icon{
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+footer{
+    height: 250px;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+.foot-3{
+    margin-top: 12px;
+}
+
+footer a{
+    color: rgba(0, 0, 0, 0.885);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #e53f27;
+}
+
+
+
